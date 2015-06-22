@@ -1,0 +1,34 @@
+{
+  "name":        "jsx",
+  "version":     "0.0.1",
+  "description": "a faster, safer, easier alternative to JavaScript",
+  "homepage": "http://jsx.github.com/",
+  "repository" : "git://github.com/jsx/JSX.git",
+  "author": [
+      {
+        "name":  "Kazuho Oku",
+        "email": "oku.kazuho@dena.jp"
+      },
+      {
+        "name":  "Goro Fuji (gfx)",
+        "email": "fuji.goro@dena.jp"
+      }
+  ],
+  "bin" : {
+      "jsx" : "./bin/jsx"
+  },
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib"
+  },
+  "devDependencies": {
+      "browserbuild": "*",
+      "source-map": "0.1.1"
+  },
+  "engines": {
+    "node": ">= 0.6.19"
+  },
+  "scripts" : {
+      "test" : "make test-all JOBS=1"
+  }
+}
